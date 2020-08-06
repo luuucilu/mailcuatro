@@ -7,7 +7,8 @@ body{
 
 .blue-background{
     background-color: #539be2;
-    max-height: 30%;
+    height: 200px;
+
 }
 
 .mail-body{
@@ -15,6 +16,7 @@ body{
     padding: 50px 30px;
     max-width: 500px;
     margin: 40px auto;
+    margin-top: -100px;
     border-radius: 5px;
 }
 
@@ -24,38 +26,24 @@ body{
     letter-spacing: 5px;
     text-align: center;
     color: #111111;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     
 }
 
-.video-wrapper {
-    width: 100%;
-    margin: ;
-}
-
-.video-ratio {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-
-.video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
+.video{
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .semi-title{
     font-size: 25px;
     line-height: 50px;
     color: #111111;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .paragraph{
+    padding: 20px 0;
     color: #666666;
 }
 
