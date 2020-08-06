@@ -9,8 +9,19 @@ body{
     background-color: #539be2;
 }
 
+.main-div{
+    background-color: white;
+    padding: 50px 30px;
+    max-width: 700px;
+    max-height: 500px;
+    margin: 100px 600px 30px ;
+    border-radius: 5px;
+}
+
 .mail-body{
-    background-color: #ffffff;
+
+    width: 100%;
+
 }
 
 .mail-title{
@@ -19,14 +30,21 @@ body{
     letter-spacing: 5px;
     text-align: center;
     color: #111111;
+    padding-bottom: 40px;
+    
+}
+
+.video{
+    width: 700px;
 }
 
 .semi-title{
-
+    line-height: 50px;
     color: #111111;
 }
 
 .paragraph{
+    
     color: #666666;
 }
 
@@ -36,16 +54,29 @@ body{
 
 .mail-help{
     background-color: #b3e5fc;
+    text-align: center;
+    padding: 50px 30px;
+    max-width: 700px;
+    max-height: 300px;
+    margin: 30px 600px 30px ;
+    border-radius: 5px;
 }
 
 .mail-footer{
-
+    text-align: left;
+    padding: 50px 30px;
+    max-width: 700px;
+    max-height: 300px;
+   /* margin: 0 auto; */
+    margin: 30px 600px 30px ;
 }
 
 .black-link{
     color: #111111;
 }
 
-
+p {
+    line-height: 20px;
+}
 
 
