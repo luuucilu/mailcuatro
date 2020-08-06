@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.blue-background{
+    background-color: #539be2;
+}
+
+.mail-body{
+    background-color: #ffffff;
+}
+
+.mail-title{
+    font-size: 42px;
+    font-weight: 550;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #111111;
+}
+
+.semi-title{
+
+    color: #111111;
+}
+
+.paragraph{
+    color: #666666;
+}
+
+.blue-link{
+    color:#579de2;
+}
+
+.mail-help{
+    background-color: #b3e5fc;
+}
+
+.mail-footer{
+
+}
+
+.black-link{
+    color: #111111;
+}
+
+
+
+
