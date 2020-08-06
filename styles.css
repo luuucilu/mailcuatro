@@ -7,22 +7,18 @@ body{
 
 .blue-background{
     background-color: #539be2;
+    max-height: 30%;
 }
 
-.main-div{
+
+.mail-body{
     background-color: white;
     padding: 50px 30px;
-    max-width: 700px;
-    max-height: 500px;
-    margin: 100px 600px 30px ;
+    max-width: 500px;
+    margin: 40px auto;
     border-radius: 5px;
 }
 
-.mail-body{
-
-    width: 100%;
-
-}
 
 .mail-title{
     font-size: 42px;
@@ -39,36 +35,46 @@ body{
 }
 
 .semi-title{
+    font-size: 25px;
     line-height: 50px;
     color: #111111;
+    padding-top: 20px;
 }
 
 .paragraph{
-    
     color: #666666;
 }
 
 .blue-link{
+    font-size: 18px;
+    font-weight: 600;
     color:#579de2;
+    
 }
 
 .mail-help{
     background-color: #b3e5fc;
     text-align: center;
+    line-height: 30px;
     padding: 50px 30px;
-    max-width: 700px;
-    max-height: 300px;
-    margin: 30px 600px 30px ;
+    max-width: 500px;
+    margin: 0 auto;
     border-radius: 5px;
+}
+
+.mail-help p{
+    font-size: 20px;
 }
 
 .mail-footer{
     text-align: left;
     padding: 50px 30px;
-    max-width: 700px;
-    max-height: 300px;
-   /* margin: 0 auto; */
-    margin: 30px 600px 30px ;
+    max-width: 500px;
+    margin: 0 auto ;
+}
+
+.mail-footer p{
+
 }
 
 .black-link{
